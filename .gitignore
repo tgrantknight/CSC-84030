@@ -1,0 +1,16 @@
+data/
+other/
+
+.DS_Store
+
+# Docker and Hadoop/Spark environment
+.env
+notebooks/.ipynb_checkpoints/
+*.log
+
+# Docker volumes (these are managed by Docker)
+hadoop_namenode/
+hadoop_datanode1/
+hadoop_datanode2/
+hadoop_datanode3/
+hadoop_historyserver/
